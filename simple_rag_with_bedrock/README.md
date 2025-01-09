@@ -2,13 +2,21 @@
 
 ## Concept
 
-Bedrockを使った簡易なRAG環境の構築
+Bedrock を使った簡易な RAG 環境の構築
 
 ## Commands
 
-* `npm run build`   compile typescript to js
-* `npm run watch`   watch for changes and compile
-* `npm run test`    perform the jest unit tests
-* `npx cdk deploy`  deploy this stack to your default AWS account/region
-* `npx cdk diff`    compare deployed stack with current state
-* `npx cdk synth`   emits the synthesized CloudFormation template
+- `$ AWS_PROFILE={profile} cdk bootstrap aws://{AWS_ACCOUNT_ID}/{REGION}`
+  - ブートストラップ
+- `npm run build`
+  - TypeScript を JS にコンパイル
+- `npm run watch`
+  - 変更を監視しコンパイル
+- `npm run test`
+  - Jest ユニットテストを実行
+- `npx cdk deploy`
+  - このスタックをデフォルトの AWS アカウント/リージョンにデプロイ
+- `npx cdk diff`
+  - デプロイされたスタックと現在の状態を比較
+- `npx cdk synth`
+  - 合成された CloudFormation テンプレートを出力
