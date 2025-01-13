@@ -4,6 +4,12 @@
 
 Bedrock を使った簡易な RAG 環境の構築
 
+## Setup
+
+### .envファイルの準備
+
+.env.example をコピーして .env を作成し、環境変数の値を変更してください。
+
 ## Commands
 
 - `npm run build`
