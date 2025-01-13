@@ -6,8 +6,6 @@ Bedrock を使った簡易な RAG 環境の構築
 
 ## Commands
 
-- `$ AWS_PROFILE={profile} cdk bootstrap aws://{AWS_ACCOUNT_ID}/{REGION}`
-  - ブートストラップ
 - `npm run build`
   - TypeScript を JS にコンパイル
 - `npm run watch`

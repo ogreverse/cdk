@@ -40,3 +40,8 @@ aws_secret_access_key =
     ]
 }
 ```
+
+## Commands
+
+- `$ AWS_PROFILE={profile} cdk bootstrap aws://{AWS_ACCOUNT_ID}/{REGION}`
+  - ブートストラップ
