@@ -7,7 +7,7 @@
 test('SQS Queue Created', () => {
 //   const app = new cdk.App();
 //     // WHEN
-//   const stack = new SimpleRagWithBedrock.SimpleRagWithBedrockStack(app, 'MyTestStack');
+//   const stack = new SimpleRagWithBedrock.BedrockStack(app, 'MyTestStack');
 //     // THEN
 //   const template = Template.fromStack(stack);
 
